@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 public class FileQueueService implements QueueService {
 
     private static final int VISIBILITY_TIMEOUT = 30; //seconds
-    private static final String HOME_PATH = "/root/";
+    private static final String HOME_PATH = "/tmp/";
     private static final String QUEUES_DIR = "sqs";
     
     //Using the Unix POSIX file system for multi-threading implementation
